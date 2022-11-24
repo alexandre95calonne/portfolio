@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
 html,
 body,
 #root
@@ -12,4 +14,16 @@ body,
 
 canvas {
     touch-action: none;
+}
+
+.htmlScreen iframe{
+    width: 1101px;
+    height: 670px;
+    border: none;
+    background: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.yes {
+    font-family: 'Caveat';
 }
